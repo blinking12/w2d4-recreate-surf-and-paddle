@@ -4,3 +4,19 @@
 * {
     box-sizing: border-box;
 }
+
+.headerpic {
+    background-image: url(../images/topwaves.jpeg);
+    height: 400px;
+    background-size: cover;
+}
+.paddletext {
+    color: white;
+    font-size: 72px;
+}
+
+.mostpop {
+    color: #083452;
+    font-size: 36px;
+    text-align: center;
+}
