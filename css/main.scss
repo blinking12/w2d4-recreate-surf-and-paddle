@@ -1,25 +1,43 @@
+@import 'settings';
+$brand-success: pink;
+@import '../bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/variables';
+@import '../bootstrap-sass-3.3.7/assets/stylesheets/bootstrap';
+
+
+
 * {
     box-sizing: border-box;
 }
 
 body {
     padding: 100px;
+    background: lightgray;
 }
 
 #box1 {
-    border: 1px solid orange;
-    padding: 20px;
+    // width: 300px / 960px * 100%;
+    border: 1px solid $color1;
+    padding: $padding;
+
+    &:hover {
+        background: $gradient;
+        padding: $paddingHover;
+    }
+
+    h1 {
+        color: $color1;
+    }
 }
 
 #box1 > h1 {
-    color: orange;
+    color: $color1;
 }
 
 #box2 {
-    border: 1px solid red;
-    padding: 20px;
+    border: 1px solid $color2;
+    padding: $padding;
 }
 
-#box1 > h2 {
-    color: red;
+#box2 > h1 {
+    color: darken($color2, 20%);
 }
