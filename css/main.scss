@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 100px;
+}
+
+#box1 {
+    border: 1px solid orange;
+    padding: 20px;
+}
+
+#box1 > h1 {
+    color: orange;
+}
+
+#box2 {
+    border: 1px solid red;
+    padding: 20px;
+}
+
+#box1 > h2 {
+    color: red;
+}
