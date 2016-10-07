@@ -7756,3 +7756,31 @@ button.close {
   font-size: 36px;
   text-align: center;
 }
+
+.fourpics {
+  display: flex;
+}
+
+.fourpics img {
+  width: 100%;
+}
+
+.fourpics1 {
+  flex: 1;
+}
+
+.fourpics2 {
+  flex: 1;
+}
+
+.fourpics3 {
+  flex: 1;
+}
+
+.fourpics4 {
+  flex: 1;
+}
+
+.borderline {
+  border-top: 1px solid gray;
+}

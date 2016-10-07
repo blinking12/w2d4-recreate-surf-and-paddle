@@ -3,6 +3,7 @@
 
 * {
     box-sizing: border-box;
+    // border: 1px dashed grey;
 }
 
 .headerpic {
@@ -19,4 +20,31 @@
     color: #083452;
     font-size: 36px;
     text-align: center;
+}
+
+.fourpics {
+    img {
+        width: 100%;
+    }
+    display: flex;
+}
+
+.fourpics1 {
+    flex: 1;
+}
+
+.fourpics2 {
+    flex: 1;
+}
+
+.fourpics3 {
+    flex: 1;
+}
+
+.fourpics4 {
+    flex: 1;
+}
+
+.borderline {
+    border-top: 1px solid gray;
 }
