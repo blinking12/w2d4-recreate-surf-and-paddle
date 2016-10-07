@@ -7784,3 +7784,16 @@ button.close {
 .borderline {
   border-top: 1px solid gray;
 }
+
+.whoaline {
+  border-left: 1px solid gray;
+}
+
+.footer {
+  background-color: #233746;
+  color: #90A3B2;
+}
+
+.navline {
+  border-right: 1px solid #90A3B2;
+}
