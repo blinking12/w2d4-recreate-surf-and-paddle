@@ -7765,22 +7765,6 @@ button.close {
   width: 100%;
 }
 
-.fourpics1 {
-  flex: 1;
-}
-
-.fourpics2 {
-  flex: 1;
-}
-
-.fourpics3 {
-  flex: 1;
-}
-
-.fourpics4 {
-  flex: 1;
-}
-
 .borderline {
   border-top: 1px solid gray;
 }
@@ -7796,4 +7780,69 @@ button.close {
 
 .navline {
   border-right: 1px solid #90A3B2;
+}
+
+.fourpics {
+  display: flex;
+  height: 200px;
+}
+
+.fourpics img {
+  width: 100%;
+}
+
+.fourpic1 {
+  background-image: url(../images/testimage.jpeg);
+  flex: 1;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fourpic1 h4 {
+  padding-top: 160px;
+  padding-left: 10PX;
+  color: white;
+}
+
+.fourpic2 {
+  background-image: url(../images/test2.jpeg);
+  flex: 1;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fourpic2 h4 {
+  padding-top: 160px;
+  padding-left: 10PX;
+  color: white;
+}
+
+.fourpic3 {
+  background-image: url(../images/test3.jpeg);
+  flex: 1;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fourpic3 h4 {
+  padding-top: 140px;
+  padding-left: 10PX;
+  color: white;
+}
+
+.fourpic4 {
+  background-image: url(../images/test4.jpeg);
+  flex: 1;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fourpic4 h4 {
+  padding-top: 160px;
+  padding-left: 10PX;
+  color: white;
+}
+
+.footpad {
+  padding-top: 5px;
 }
