@@ -1,4 +1,4 @@
-// @import '../bootstrap-sass-3.3.7/assets/stylesheets/bootstrap';
+@import '../bootstrap-sass-3.3.7/assets/stylesheets/bootstrap';
 
 
 * {
@@ -16,6 +16,30 @@
     font-size: 72px;
 }
 
+.glyphicon {
+    top: 0px;
+}
+
+.btn-glyph {
+    background-color: #5E686F;
+    color: white;
+}
+
+.btn-glyph:hover {
+    background-color: #083452;
+    color: white;
+}
+
+.btn-text {
+    background-color: #A3B3BF;
+    color: white;
+}
+
+.btn-text:hover {
+    background-color: #106DB3;
+    color: white;
+}
+
 .annemarie {
     color: #448AC1;
     font-size: 12px;
@@ -25,6 +49,10 @@
     font-size: 10px;
     color: #BAC6CF;
     padding-left: 5px;
+}
+
+.btn {
+    border-radius: 0px;
 }
 
 .rightpicbackground {
@@ -41,11 +69,6 @@
     }
 }
 
-// a:hover {
-//     background-color: blue;
-//     opacity: .5;
-// }
-
 .addlink {
     font-size: 8px;
     color: #ABB9C4;
@@ -56,13 +79,6 @@
     font-size: 36px;
     text-align: center;
 }
-
-// .fourpics {
-//     img {
-//         width: 100%;
-//     }
-//     display: flex;
-// }
 
 .borderline {
     border-top: 1px solid gray;
@@ -77,9 +93,16 @@
     color: #90A3B2;
 }
 
+.footword {
+    color: #90A3B2;
+}
+
+.irony {
+    font-size: 12px;
+}
+
 .navline {
     padding-left: 5px;
-    // border-right: 1px solid #90A3B2;
     font-size: 12px;
 }
 
@@ -93,9 +116,6 @@
     }
     display: flex;
     height: 200px;
-    // h2 {
-    //     padding-top: 140px;
-    // }
 }
 
 .fourpic1 {
