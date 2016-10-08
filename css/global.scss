@@ -1,4 +1,4 @@
-@import '../bootstrap-sass-3.3.7/assets/stylesheets/bootstrap';
+// @import '../bootstrap-sass-3.3.7/assets/stylesheets/bootstrap';
 
 
 * {
@@ -16,33 +16,52 @@
     font-size: 72px;
 }
 
+.annemarie {
+    color: #448AC1;
+    font-size: 12px;
+}
+
+.tfi {
+    font-size: 10px;
+    color: #BAC6CF;
+    padding-left: 5px;
+}
+
+.rightpicbackground {
+    background-color: blue;
+}
+
+.rightpic {
+    background-image: url(../images/addpic.jpeg);
+    height: 200px;
+    opacity: 1;
+    background-size: cover;
+    &:hover {
+        opacity: .5;
+    }
+}
+
+// a:hover {
+//     background-color: blue;
+//     opacity: .5;
+// }
+
+.addlink {
+    font-size: 8px;
+    color: #ABB9C4;
+}
+
 .mostpop {
     color: #083452;
     font-size: 36px;
     text-align: center;
 }
 
-.fourpics {
-    img {
-        width: 100%;
-    }
-    display: flex;
-}
-
-// .fourpics1 {
-//     flex: 1;
-// }
-//
-// .fourpics2 {
-//     flex: 1;
-// }
-//
-// .fourpics3 {
-//     flex: 1;
-// }
-//
-// .fourpics4 {
-//     flex: 1;
+// .fourpics {
+//     img {
+//         width: 100%;
+//     }
+//     display: flex;
 // }
 
 .borderline {
@@ -59,6 +78,12 @@
 }
 
 .navline {
+    padding-left: 5px;
+    // border-right: 1px solid #90A3B2;
+    font-size: 12px;
+}
+
+.rightline {
     border-right: 1px solid #90A3B2;
 }
 
@@ -83,6 +108,10 @@
         padding-left: 10PX;
         color: white;
     }
+    opacity: 1;
+    &:hover {
+        opacity: .5;
+    }
 }
 
 .fourpic2 {
@@ -94,6 +123,10 @@
         padding-top: 160px;
         padding-left: 10PX;
         color: white;
+    }
+    opacity: 1;
+    &:hover {
+        opacity: .5;
     }
 }
 
@@ -107,6 +140,10 @@
         padding-left: 10PX;
         color: white;
     }
+    opacity: 1;
+    &:hover {
+        opacity: .5;
+    }
 }
 
 .fourpic4 {
@@ -118,6 +155,10 @@
         padding-top: 160px;
         padding-left: 10PX;
         color: white;
+    }
+    opacity: 1;
+    &:hover {
+        opacity: .5;
     }
 }
 
