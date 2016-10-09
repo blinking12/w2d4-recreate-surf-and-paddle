@@ -7751,6 +7751,14 @@ button.close {
   font-size: 72px;
 }
 
+.afan {
+  color: #083452;
+}
+
+.paracolor {
+  color: #888F94;
+}
+
 .glyphicon {
   top: 0px;
 }
@@ -7786,12 +7794,17 @@ button.close {
   padding-left: 5px;
 }
 
+.sidebartext {
+  color: #BAC6CF;
+  font-size: 10px;
+}
+
 .btn {
   border-radius: 0px;
 }
 
 .rightpicbackground {
-  background-color: blue;
+  background-color: #083452;
 }
 
 .rightpic {
@@ -7801,13 +7814,18 @@ button.close {
   background-size: cover;
 }
 
-.rightpic:hover {
+.rightpic a:hover {
   opacity: .5;
 }
 
 .addlink {
   font-size: 8px;
   color: #ABB9C4;
+  opacity: 1;
+}
+
+.addlink:hover {
+  opacity: .5;
 }
 
 .mostpop {
@@ -7822,6 +7840,19 @@ button.close {
 
 .whoaline {
   border-left: 1px solid gray;
+  padding-right: 20px;
+  height: 100px;
+}
+
+blockquote {
+  padding: 10px 20px;
+  margin: 0 0 20px;
+  font-size: 17.5px;
+  border-left: 2px solid #DBDBDB;
+}
+
+.whoatext {
+  color: #0969B1;
 }
 
 .footer {
@@ -7867,6 +7898,7 @@ button.close {
   padding-top: 160px;
   padding-left: 10PX;
   color: white;
+  font-size: 2vw;
 }
 
 .fourpic1:hover {
@@ -7885,6 +7917,7 @@ button.close {
   padding-top: 160px;
   padding-left: 10PX;
   color: white;
+  font-size: 2vw;
 }
 
 .fourpic2:hover {
@@ -7903,6 +7936,7 @@ button.close {
   padding-top: 140px;
   padding-left: 10PX;
   color: white;
+  font-size: 2vw;
 }
 
 .fourpic3:hover {
@@ -7921,6 +7955,7 @@ button.close {
   padding-top: 160px;
   padding-left: 10PX;
   color: white;
+  font-size: 2vw;
 }
 
 .fourpic4:hover {
