@@ -7751,6 +7751,29 @@ button.close {
   font-size: 72px;
 }
 
+.shadow {
+  text-shadow: 2px 2px 2px #083654;
+}
+
+.about {
+  color: #083654;
+  padding-left: 100px;
+}
+
+.search {
+  color: #083654;
+  padding-left: 10px;
+}
+
+.hourglass {
+  color: #083654;
+  padding-right: 100px;
+}
+
+.tiya {
+  color: #083654;
+}
+
 .afan {
   color: #083452;
 }
@@ -7794,6 +7817,11 @@ button.close {
   padding-right: 10px;
 }
 
+.monday {
+  color: #A4B4C0;
+  font-size: 10px;
+}
+
 .tfi {
   font-size: 10px;
   color: #BAC6CF;
@@ -7820,7 +7848,7 @@ button.close {
   background-size: cover;
 }
 
-.rightpic a:hover {
+.rightpic:hover {
   opacity: .5;
 }
 
